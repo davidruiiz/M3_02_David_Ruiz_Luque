@@ -17,5 +17,5 @@ def dividir(a,b):
 print(dividir(7, 0))
 
 #Importamos a main
-if __name__ == '__main__':  
+if __name__ == "__main__":  
     main()
