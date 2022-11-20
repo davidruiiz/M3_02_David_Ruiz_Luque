@@ -8,7 +8,7 @@ paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" }
 def imprimir_clave_valor(paises, valor):
     ##Utilizamos try y except para controlar las excepciones
     try:
-        return lista[valor] #Se accede al valor de una clave dada
+        return paises[valor] #Se accede al valor de una clave dada
 
     except KeyError: #En el caso de no encontrar el valor, usamos KeyError para controlar la excepción
         return 'Valor no encontrado.' #En ese caso, el programa lanzará este mensaje
@@ -19,7 +19,7 @@ print(imprimir_clave_valor(paises, 'alemania'))
 
 #Importamos a main
 
-if __name=='__main__':
+if __name__=='__main__':
     main()
 
 
