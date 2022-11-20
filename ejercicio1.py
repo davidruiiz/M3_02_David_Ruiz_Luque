@@ -10,6 +10,7 @@ def dividir(a,b):
 
     except ZeroDivisionError: #En el caso de que b=0 se ejecutará la excepción ya que sería un error del tipo ZeroDivisonError
         return 'No es posoble dividir entre cero.' #cuando el denominador sea 0, el programa lanzará este mensaje.
+        sys.exit()
     
 
 #Ejemplo
