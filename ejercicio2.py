@@ -1,7 +1,7 @@
 from ast import main
 import main
 
-print('EJERCICIO 2\n')
+print('\nEJERCICIO 2\n')
 
 lista=[4, 7, 30, 23, 5]
 
