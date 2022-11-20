@@ -9,7 +9,8 @@ def dividir(a,b):
         return a/b  #Realizamos la operación
 
     except ZeroDivisionError: #En el caso de que b=0 se ejecutará la excepción ya que sería un error del tipo ZeroDivisonError
-        return 'No es posoble dividir entre cero.' #cuando el denominador sea 0, el programa lanzará este mensaje.
+        print('No es posoble dividir entre cero.') #cuando el denominador sea 0, el programa lanzará este mensaje.
+        return '\nOperación no válida.'
         sys.exit()
     
 

@@ -11,7 +11,8 @@ def imprimir_clave_valor(paises, valor):
         return paises[valor] #Se accede al valor de una clave dada
 
     except KeyError: #En el caso de no encontrar el valor, usamos KeyError para controlar la excepción
-        return 'Valor no encontrado.' #En ese caso, el programa lanzará este mensaje
+        print('Valor no encontrado.') #En ese caso, el programa lanzará este mensaje
+        return '\nOperación no válida.'
         sys.exit()
 
 #Ejemplo
