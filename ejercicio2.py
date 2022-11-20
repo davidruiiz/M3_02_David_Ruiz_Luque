@@ -11,7 +11,7 @@ def imprimir_elemento_lista(lista, posicion):
         return lista[posicion] 
     except IndexError: #En caso de que el índice dado exceda la longitud de la lista, usamos IndexError para controlar la excepción
         print('El índice está fuera del rango.')
-        return '\nOperación no válida.' #cuando esto ocurra se lanzará este mensaje
+        return 'Operación no válida.' #cuando esto ocurra se lanzará este mensaje
         sys.exit()
 #Ejemplo
 print(imprimir_elemento_lista(lista, 11))

@@ -12,7 +12,7 @@ def imprimir_clave_valor(paises, valor):
 
     except KeyError: #En el caso de no encontrar el valor, usamos KeyError para controlar la excepción
         print('Valor no encontrado.') #En ese caso, el programa lanzará este mensaje
-        return '\nOperación no válida.'
+        return 'Operación no válida.'
         sys.exit()
 
 #Ejemplo

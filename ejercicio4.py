@@ -8,7 +8,7 @@ def suma(a,b):
         return a+b
     except TypeError: #En el caso de que uno de los dos números sea de tipo cadena o booleano saltará la excepción TypeError 
         print('No se puede concatenar un "string" con un "int".') #En tal caso el programa imprimirá este mensaje
-        return '\nOperación no válida.'
+        return 'Operación no válida.'
         sys.exit()
 
 #Ejemplo:
